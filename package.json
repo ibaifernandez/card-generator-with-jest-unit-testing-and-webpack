@@ -1,0 +1,21 @@
+{
+    "name": "card-generator-with-test-and-webpack-2",
+    "version": "1.0.0",
+    "description": "## Introducción",
+    "main": "app.js",
+    "scripts": {
+        "test": "jest",
+        "build": "webpack --mode=development ./app.js dist"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "jest": {
+        "testEnvironment": "jsdom"
+    },
+    "devDependencies": {
+        "jest-environment-jsdom": "^29.3.1",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1"
+    }
+}
